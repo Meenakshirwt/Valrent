@@ -193,6 +193,7 @@ body{
     right: 0;
     background-color: #0f192395;
     border: 0.5px solid #2b2a29;
+    color: white;
 }
 .card img{
     width: 100%;
@@ -220,6 +221,121 @@ body{
     font-weight: normal;
     font-size: 16px;
 }
+
+/*New Agent SECTION*/
+ .agent-container{
+    height: 80vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    position: relative;
+ }
+ .agent-container>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+ .agent-content{
+    /* border: 2px solid white; */
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    color: white;
+    letter-spacing: 0.08em;
+ }
+ .agent-content>h1{
+    font-size: 80px;
+    font-family: fantasy;
+ }
+ .agent-content p{
+    margin-bottom: 10px;
+    font-size: 18x;
+    font-weight: 600;
+ }
+ .agent-content button{
+    padding: 18px 32px;
+    background-color: #ff4655;
+    color: #ece8e1;
+    /* border: 1px solid #ece8e1; */
+    transition: 0.2s;
+    cursor: pointer;
+    margin-top: 30px;
+    /* font-weight: 300; */
+    border: none;
+ }
+ .agent-content button:hover{
+    background-color: white;
+    color: black;
+ }
+ .gameplay-container{
+    height: 75vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url("./assets/gameplay.avif");
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .gameplay-container > article{
+    width: 45%;
+    height: 80%;
+    border: 2px solid black;
+ }
+ .gameplay-video-container{
+    height: 100%;
+    width: 100%;
+ }
+ .gameplay-video-container video{
+    height: 100%;
+    width: 100%;
+ }
+ .gameplay-content{
+    padding: 8px;
+ }
+ .gameplay-content>h1{
+    font-size: 80px;
+    font-family: fantasy;
+    margin-bottom: 16px;
+ }
+ .gameplay-content>div{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+ }
+ .gameplay-content>p{
+    font-size: 14px;
+    color: #0f1923;
+ }
+ .gameplay-content>button{
+    background-color: #ff4655;
+    color: white;
+    padding: 18px 32px;
+    border: none;
+    margin-top: 25px;
+ }
+ /* YOUR AGENT SECTION*/
+ .your-agent-container{
+    height: 90vh;
+    width: 100%;
+    background-image: url("./assets/red-img.avif");
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .your-agent-container >article{
+    width: 45%;
+    height: 90%;
+    border: 2px solid black;
+ }
+ .your-agent-image-container >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+ }
 
 
  
